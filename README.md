@@ -1,18 +1,34 @@
 # Classic Cipher Algorithms in JavaScript
 
-sample algos implemented, located at /src
-
 ## Setup
 
-use pnpm
+first install & use pnpm (npm but faster)
 
-- `npm i -g pnpm`
-- `pnpm i`
+```sh
+npm i -g pnpm
+pnpm i
+```
 
 ## Run
 
-- start - `pnpm start`
+- build & start - `pnpm start`
 - test - `pnpm dev`
+
+## Output
+
+```txt
+saurabh@DESKTOP-A9C8D9M ~/W/p/t/js-cipher-algos> pnpm start
+> js-cipher-algos@1.0.0 start /home/saurabh/Workspace/projects/typescript/js-cipher-algos
+> tsc && node dist/main.js
+
+message > super secret message
+[caesar_cipher]
+encoded:  VXSHU VHFUHW PHVVDJH
+decodeed:  SUPER SECRET MESSAGE
+[vigerence_cipher]
+encoded:  CYHLR CIUYEO WIKZABO
+decodeed:  SUPER SECRET MESSAGE
+```
 
 ## License
 
