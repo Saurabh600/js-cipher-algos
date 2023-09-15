@@ -22,10 +22,10 @@ saurabh@DESKTOP-A9C8D9M ~/W/p/t/js-cipher-algos> pnpm start
 > tsc && node dist/main.js
 
 message > super secret message
-[caesar_cipher]
+caesar_cipher
 encoded:  VXSHU VHFUHW PHVVDJH
 decodeed:  SUPER SECRET MESSAGE
-[vigerence_cipher]
+vigerence_cipher
 encoded:  CYHLR CIUYEO WIKZABO
 decodeed:  SUPER SECRET MESSAGE
 ```
